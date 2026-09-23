@@ -1,6 +1,8 @@
 # Enrichment Services
 
-This repository provides a **Research Object (RO) analysis and recommendation API**, built with Flask, Gunicorn, Celery, and Redis, packaged in Docker for easy deployment.
+This repository provides a **Research Object (RO) analysis and recommendation API**, built with Flask, Gunicorn, Celery, and 
+Redis, packaged in Docker for easy deployment. This project has been migrated from another repository. If you have any doubts 
+or problems, please contact with us.
 
 ---
 

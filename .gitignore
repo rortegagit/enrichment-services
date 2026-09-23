@@ -1,0 +1,57 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.pytest_cache/
+*.mypy_cache/
+*.venv/
+venv/
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+celerybeat-schedule
+*.pid
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+build/
+*.tar
+*.img
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / cache
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# pytest
+.pytest_cache/
+
+# Misc
+*.swp

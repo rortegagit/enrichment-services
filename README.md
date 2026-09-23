@@ -376,6 +376,8 @@ Same as /ro_claim_analysis, but uses the development ROHub endpoint.
 - For Celery retries, the task uses max_retries and default_retry_delay.
 - Logs are written to stdout/stderr (--access-logfile - --error-logfile -) for containerized logging.
 
+---
+
 ## Authors and Acknowledgements
 
 This repository is developed and maintained by Raúl Ortega (rortega@expert.ai) as part of the FAIR2Adapt project (Grant number: 101188256).

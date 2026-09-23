@@ -11,7 +11,7 @@ This repository provides a **Research Object (RO) analysis and recommendation AP
 - **/ro_recommendation_dev** – Development endpoint for testing.  
 - **/ro_claim_extraction** – Provides a list of extracted claims from the title and description of an RO.
 - **/ro_claim_extraction_dev** – Development endpoint for testing.
-- - **/ro_claim_analysis** – Provides a list of extracted claims from the title and description of an RO, and assess them with literature articles.
+- **/ro_claim_analysis** – Provides a list of extracted claims from the title and description of an RO, and assess them with literature articles.
 - **/ro_claim_analysis_dev** – Development endpoint for testing.
 - **Asynchronous processing** – Celery + Redis ensures tasks run in the background and can be retried on failure.  
 - **Dockerized** – Easy to run locally or deploy in production with environment variable configuration.

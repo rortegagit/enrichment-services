@@ -370,8 +370,6 @@ Same as /ro_claim_analysis, but uses the development ROHub endpoint.
 
 ---
 
----
-
 ## Development Notes
 
 - Environment variables are accessible via os.environ.get("VAR_NAME").

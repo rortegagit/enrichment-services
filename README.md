@@ -324,8 +324,6 @@ Returns a list of claims extracted from the title and description of the RO.
 
 Same as /ro_claim_extraction, but uses the development ROHub endpoint.
 
----
-
 6. /ro_claim_analysis (POST)
 
 Accepts JSON:
@@ -369,6 +367,8 @@ Returns a list of claims extracted from the title and description of the RO, and
 7. /ro_claim_analysis_dev (POST)
 
 Same as /ro_claim_analysis, but uses the development ROHub endpoint.
+
+---
 
 ---
 

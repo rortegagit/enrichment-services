@@ -1,0 +1,22 @@
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+
+  web:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "${PORT}:${PORT}"
+    depends_on:
+      - redis
+
+  celery:
+    build: .
+    env_file:
+      - .env
+    command: celery -A ro_aggregator.tasks worker --loglevel=info
+    depends_on:
+      - redis
